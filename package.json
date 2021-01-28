@@ -1,0 +1,27 @@
+{
+  "name": "my-social-network-api",
+  "version": "1.0.0",
+  "description": "server api",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Den-programmer/My-Social-Network-API.git"
+  },
+  "author": "Denis Grygorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Den-programmer/My-Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Den-programmer/My-Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}

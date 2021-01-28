@@ -1,0 +1,23 @@
+GET http://localhost:3001/subscribers
+
+###
+
+GET http://localhost:3001/subscribers/6012edd26177a32214dbcf5b
+
+###
+
+POST http://localhost:3001/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscribedToChannel": true
+}
+
+###
+
+PUT http://localhost:3001/subscribers/6012edd26177a32214dbcf5b
+
+###
+
+DELETE http://localhost:3001/subscribers/6012edd26177a32214dbcf5b
