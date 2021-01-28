@@ -1,7 +1,12 @@
+const bodyParser = require('body-parser')
 require('dotenv').config()
 
 const express = require('express')
 const app = express()
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+
 const mongoose = require('mongoose')
 
 mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true, useFindAndModify: false })
